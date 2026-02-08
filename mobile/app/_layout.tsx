@@ -10,7 +10,7 @@ export default function RootLayout() {
     <ClerkProvider tokenCache={tokenCache}>
 
       <Stack screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="(auth)" />
+        <Stack.Screen name="(auth)" options={{ headerShown: false }}/>
       </Stack>
 
     </ClerkProvider>
